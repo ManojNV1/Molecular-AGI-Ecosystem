@@ -10,6 +10,7 @@ sim = thp.MolecularDynamics(
     atoms=500, 
     forces=thp.QuantumVanDerWaals(),
     box_size=(100, 100, 100)
+)
     
 # Enzyme-inspired LangGraph setup
 builder = EnzymaticGraph(
